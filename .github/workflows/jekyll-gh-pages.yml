@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    theme: jekyll-theme-midnight
+    theme: jekyll-theme-minimal
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
